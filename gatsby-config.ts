@@ -134,7 +134,7 @@ const config: GatsbyConfig = {
   }
 }`,
 						output: `rss.xml`,
-						title: `Myolog`,
+						title: `Truebrary`,
 					},
 				],
 			},

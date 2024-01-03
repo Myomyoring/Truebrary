@@ -66,10 +66,10 @@ const Post: React.FC<React.PropsWithChildren<PageProps<MBPostProps>>> = ({ data:
 		<PostFooter post={post} />
 		<Giscus
 			id="comments"
-			repo="Myomyoring/Myomyoring.github.io"
-			repoId="R_kgDOJcvsxw"
+			repo="Myomyoring/Truebrary"
+			repoId="R_kgDOLAOyIg"
 			category="Comments"
-			categoryId="DIC_kwDOJcvsx84CbEZK"
+			categoryId="DIC_kwDOLAOyIs4CcKFm"
 			mapping="pathname"
 			term="Welcome to @giscus/react component!"
 			reactionsEnabled="1"
