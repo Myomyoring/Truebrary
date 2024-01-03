@@ -1,0 +1,41 @@
+{
+	"private": true,
+	"name": "Truebrary",
+	"description": "묘묘링의 성장을 기록하는 도서관",
+	"version": "1.0.0",
+	"author": "Myomyoring",
+	"license": "",
+	"starter-name": "Truebrary",
+	"scripts": {
+		"build": "gatsby build",
+		"develop": "gatsby develop",
+		"develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+		"build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+		"start": "gatsby develop",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"dependencies": {
+		"@fontsource-variable/hahmlet": "^5.0.7",
+		"@fontsource/ibm-plex-sans-kr": "^5.0.7",
+		"@giscus/react": "^2.3.0",
+		"@lekoarts/gatsby-theme-minimal-blog": "^6.2.1",
+		"gatsby": "^5.12.3",
+		"gatsby-adapter-netlify": "^1.0.3",
+		"gatsby-plugin-feed": "^5.12.3",
+		"gatsby-plugin-google-gtag": "^5.12.3",
+		"gatsby-plugin-manifest": "^5.12.0",
+		"gatsby-plugin-robots-txt": "^1.8.0",
+		"gatsby-plugin-sitemap": "^6.12.3",
+		"gatsby-plugin-webpack-statoscope": "^1.0.3",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.17.12",
+		"@types/react": "^18.2.21",
+		"@types/react-dom": "^18.2.7",
+		"cross-env": "^7.0.3",
+		"typescript": "^5.2.2"
+	}
+}
