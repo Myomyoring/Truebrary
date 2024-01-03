@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
 		siteTitle: `Truebrary`,
 		siteTitleAlt: `묘묘링 | Study Library`,
 		siteHeadline: `묘묘링 | Study Library`,
-		siteUrl: `https://myomyoring.netlify.app`,
+		siteUrl: `https://truebrary.netlify.app/`,
 		siteDescription: `묘묘링 `,
 		siteImage: `/banner.jpg`,
 		siteLanguage: `ko`,
@@ -42,7 +42,7 @@ const config: GatsbyConfig = {
 				externalLinks: [
 					{
 						name: `Category`,
-						url: `https://myomyoring.netlify.app/tags`,
+						url: `https://truebrary.netlify.app//tags`,
 					},
 					{
 						name: `Github`,
@@ -54,8 +54,8 @@ const config: GatsbyConfig = {
 		{
 			resolve: `gatsby-plugin-robots-txt`,
 			options: {
-				host: `https://myomyoring.netlify.app/`,
-				sitemap: `https://myomyoring.netlify.app/sitemap-index.xml`,
+				host: `https://truebrary.netlify.app/`,
+				sitemap: `https://truebrary.netlify.app/sitemap-index.xml`,
 				policy: [{ userAgent: '*', allow: '/' }],
 			},
 		},

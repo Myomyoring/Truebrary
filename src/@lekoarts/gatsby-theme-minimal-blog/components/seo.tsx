@@ -57,8 +57,6 @@ const Seo = ({
 			<meta name="twitter:image:alt" content={seo.description} />
 			<meta name="twitter:creator" content={author} />
 			<meta name="gatsby-theme" content="@lekoarts/gatsby-theme-minimal-blog" />
-			<meta name="google-site-verification" content="xR1GojC_fp-zjyimruGI0zSiGZhr3kq7Wof3XYyowbo" />
-			<meta name="naver-site-verification" content="393ca526f061e409edda12cc4d79c9f01dade5af" />
 			<link rel="icon" type="image/png" sizes="32x32" href={withPrefix(`/favicon-32x32.png`)} />
 			<link rel="icon" type="image/png" sizes="16x16" href={withPrefix(`/favicon-16x16.png`)} />
 			<link rel="apple-touch-icon" sizes="180x180" href={withPrefix(`/apple-touch-icon.png`)} />
