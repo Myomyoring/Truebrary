@@ -1,6 +1,8 @@
-# Truebrary
+# [Truebrary](https://truebrary.netlify.app/)
 
 묘묘링 공부 블로그
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6d400f4-68a0-4cf6-862b-a44915c2a4c8/deploy-status)](https://app.netlify.com/sites/truebrary/deploys)
 
 ### Commit Type
 
