@@ -42,7 +42,7 @@ const config: GatsbyConfig = {
 				externalLinks: [
 					{
 						name: `Category`,
-						url: `https://truebrary.netlify.app//tags`,
+						url: `https://truebrary.netlify.app/tags`,
 					},
 					{
 						name: `Github`,
